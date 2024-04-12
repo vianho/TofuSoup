@@ -1,9 +1,9 @@
 import { TypescriptProject } from '@vianho/apidays24pj';
-import { GithubCredentials } from "projen/lib/github";
+import { GithubCredentials } from 'projen/lib/github';
 const project = new TypescriptProject({
-  defaultReleaseBranch: "main",
-  devDeps: ["@vianho/apidays24pj"],
-  name: "TofuSoup",
+  defaultReleaseBranch: 'main',
+  devDeps: ['@vianho/apidays24pj'],
+  name: 'TofuSoup',
   projenrcTs: true,
   githubOptions: {
     projenCredentials: GithubCredentials.fromApp(),

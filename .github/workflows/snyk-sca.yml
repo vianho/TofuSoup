@@ -49,4 +49,4 @@ jobs:
           RESULT_PATH=${{ github.workspace }}/snyk_sca_result_${{ github.sha }}.json
           snyk test --prune-repeated-subdependencies --severity-threshold=high --json-file-output=$RESULT_PATH 
           echo result-path=$RESULT_PATH >> $GITHUB_OUTPUT
-        continue-on-error: true
+        continue-on-error: false

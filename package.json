@@ -27,7 +27,7 @@
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
-    "@vianho/apidays24pj": "^0.0.11",
+    "@vianho/apidays24pj": "^0.0.15",
     "constructs": "^10.0.0",
     "eslint": "^8",
     "eslint-import-resolver-typescript": "^3.6.1",
